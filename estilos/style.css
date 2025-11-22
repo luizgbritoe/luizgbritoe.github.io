@@ -126,3 +126,38 @@ main section#detalhes article {
   margin-bottom: 20px;
   border-radius: 10px;
 }
+
+main section#detalhes article#skills div.skill-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+main section#detalhes article#skills div.skill-container div.item div.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main section#detalhes article#skills div.skill-container div.item div.info span.nome {
+  font-weight: bold;
+  color: var(--texto);
+}
+
+main section#detalhes article#skills div.skill-container div.item div.info span.porcent {
+  font-weight: bold;
+  color: var(--destaque);
+}
+
+main section#detalhes article#skills div.skill-container div.barra {
+  width: 100%;
+  height: 8px;
+  background-color: var(--fundo-principal);
+  border-radius: 4px;
+}
+
+main section#detalhes article#skills div.skill-container div.barra div.progresso {
+  height: 100%;
+  background-color: var(--destaque-inverso);
+  border-radius: 4px;
+}
